@@ -1,0 +1,18 @@
+<div class="card mb-4">
+  <div class="card-body bg-light">
+
+    <img class="img-thumbnail float-right" src="//api.angular.schule/avatar/{{book.rating}}" />
+    <div class="card-title">
+      <h2>
+        {{book.title}} -
+        <ng-container *ngFor="let x of stars">
+          <i style="color:yellow;" class="ms-Icon ms-Icon--FavoriteStarFill x-hidden-focus" title="FavoriteStarFill" aria-hidden="true"></i>
+        </ng-container>
+      </h2>
+    </div>
+    <p>{{book.description}}</p>
+    <button class="btn btn-danger" (click)="rateDown()">-1</button>
+    <button class="btn btn-success ml-2" (click)="rateUp()">+1</button>
+  </div>
+</div>
+<!--<button class="btn btn-primary" (click)="book.rating=99">click me</button>-->

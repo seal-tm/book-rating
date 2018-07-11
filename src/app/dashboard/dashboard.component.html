@@ -1,0 +1,5 @@
+<p>
+  <ng-container *ngFor="let b of books; even as e; odd as o">
+    <br-book [ngClass]="{evenRow: e, oddRow : o}" [book]="b" (rate)="reorderBooks($event)"></br-book>
+  </ng-container>
+</p>

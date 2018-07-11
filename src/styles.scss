@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*** office ui fabric variables ***/
+$themePrimaryColor: "[theme: themePrimary, default: #000000]";
+$themeLighterAltColor: "[theme: themeLighterAlt, default: #898989]";
+$themeLighterColor: "[theme: themeLighter, default: #737373]";
+$themeLightColor: "[theme: themeLight, default: #595959]";
+$themeTertiaryColor: "[theme: themeTertiary, default: #373737]";
+$themeSecondaryColor: "[theme: themeSecondary, default: #2f2f2f]";
+$themeDarkAltColor: "[theme: themeDarkAlt, default: #252525]";
+$themeDarkColor: "[theme: themeDark, default: #151515]";
+$themeDarkerColor: "[theme: themeDarker, default: #0b0b0b]";
+$neutralLighterAltColor: "[theme: neutralLighterAlt, default: #0b0b0b]";
+$neutralLighterColor: "[theme: neutralLighter, default: #151515]";
+$neutralLightColor: "[theme: neutralLight, default: #252525]";
+$neutralQuaternaryAltColor: "[theme: neutralQuaternaryAlt, default: #2f2f2f]";
+$neutralQuaternaryColor: "[theme: neutralQuaternary, default: #373737]";
+$neutralTertiaryAltColor: "[theme: neutralTertiaryAlt, default: #595959]";
+$neutralTertiaryColor: "[theme: neutralTertiary, default: #4a4d00]";
+$neutralSecondaryColor: "[theme: neutralSecondary, default: #949900]";
+$neutralPrimaryAltColor: "[theme: neutralPrimaryAlt, default: #d9e000]";
+$neutralPrimaryColor: "[theme: neutralPrimary, default: #f8ff00]";
+$neutralDarkColor: "[theme: neutralDark, default: #f9ff3d]";
+$blackColor: "[theme: black, default: #faff70]";
+$whiteColor: "[theme: white, default: #000000]";
+$bodyBackgroundColor: "[theme: bodyBackground, default: #000000]";
+$bodyTextColor: "[theme: bodyText, default: #f8ff00]";
+
+
+/*** bootstrap variables ***/
+$font-family-base: segoe ui;
+
+@import '~@angular-schule/workshop-styles/index';
+//@import '~office-ui-fabric-core/src/sass/Fabric';
+
